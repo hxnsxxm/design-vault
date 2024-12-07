@@ -15,7 +15,7 @@
 <br>
 평범<br>
 
-- [ ] [!important 속성 줄이기](#!important-속성-줄이기)
+- [x] [!important 속성 줄이기](#!important-속성-줄이기)
 
 <br>
 그닥<br>

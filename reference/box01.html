@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .ref-container {
+            width: 100% !important;
+            box-shadow: 0 5px 25px rgb(0 0 0 / 10%) !important;
+        }
+
+        .ref-container .ref-title,
+        .ref-container .ref-list .ref-item span {
+            background-color: rgb(255, 85, 68, 0.4) !important;
+        }
+
+        .ref-container .ref-title {
+            font-size: 1.1rem !important;
+            padding: 8px 20px 4px 16px !important;
+            margin: 0 !important;
+            line-height: 30px !important;
+            color: #fff !important;
+            border-top-left-radius: 10px !important;
+            border-top-right-radius: 10px !important;
+        }
+
+        .ref-container .ref-title::before {
+            content: '\f865' !important;
+            font-family: 'Font Awesome 5 Pro' !important;
+            margin-right: 10px !important;
+            font-size: 1rem !important;
+            font-weight: 400 !important;
+            position: relative !important;
+            top: -1px !important;
+        }
+
+        .ref-container .ref-list {
+            list-style-type: none !important;
+            padding: 0 !important;
+            margin: 0 0 10px 0 !important;
+            font-size: 1rem !important;
+            border-bottom: 8px solid rgb(255, 85, 68, 0.4) !important;
+            border-bottom-left-radius: 10px !important;
+            border-bottom-right-radius: 10px !important;
+        }
+
+        .ref-container .ref-list .ref-item {
+            padding: 6px 15px !important;
+            border-bottom: 1px dashed #f0f0f0 !important;
+            display: flex !important;
+            align-items: center !important;
+            gap: 0;
+        }
+
+        .ref-container .ref-list .ref-item:hover {
+            background-color: rgb(255, 85, 68) !important;
+        }
+
+        .ref-container .ref-list .ref-item:hover a {
+            color: #fff !important;
+        }
+
+        .ref-container .ref-list .ref-item:hover span {
+            background-color: #fff !important;
+            color: rgb(255, 85, 68) !important;
+        }
+
+        .ref-container .ref-list .ref-item span {
+            display: inline-block !important;
+            width: 20px !important;
+            height: 20px !important;
+            margin-right: 12px !important;
+            font-weight: 600 !important;
+            border-radius: 50% !important;
+            text-align: center !important;
+            line-height: 21px !important;
+            color: #fff !important;
+        }
+
+        .ref-container .ref-list .ref-item a {
+            width: calc(100% - 40px) !important;
+            display: inline-block !important;
+            text-decoration: none !important;
+            color: rgb(70, 70, 70) !important;
+            overflow-wrap: break-word !important;
+        }
+
+        .ref-container .ref-list .ref-item a::before {
+            content: '\f0c1' !important;
+            font-family: 'Font Awesome 5 Pro' !important;
+            margin-left: 5px !important;
+            margin-right: 10px !important;
+            font-size: 0.6rem !important;
+            position: relative !important;
+            top: -2px !important;
+        }
+    </style>
+    <link id="fa_pro" rel="stylesheet"
+        href="https://tistory1.daumcdn.net/tistory/4939852/skin/images/fontAwesomePro5.css?_version_=1715313873"
+        media="all" onload="this.media='all'">
+</head>
+
+<body>
+    <div class="container">
+        <div class="ref-container">
+            <p class="ref-title">Reference</p>
+            <ul class="ref-list">
+                <li class="ref-item">
+                    <span>1</span> <a href="#">link</a>
+                </li>
+                <li class="ref-item">
+                    <span>2</span> <a href="#">link</a>
+                </li>
+                <li class="ref-item">
+                    <span>3</span> <a href="#">link</a>
+                </li>
+                <li class="ref-item">
+                    <span>4</span> <a href="#">link</a>
+                </li>
+                <li class="ref-item">
+                    <span>5</span> <a href="#">link</a>
+                </li>
+                <li class="ref-item">
+                    <span>6</span> <a href="#">link</a>
+                </li>
+                <li class="ref-item">
+                    <span>7</span> <a href="#">link</a>
+                </li>
+                <li class="ref-item">
+                    <span>8</span> <a href="#">link</a>
+                </li>
+                <li class="ref-item">
+                    <span>9</span> <a href="#">link</a>
+                </li>
+                <li class="ref-item">
+                    <span>10</span> <a href="#">linklinklinklinklinklinklinklinklinlinklinklinklinklinklinklinklinlinklinklinklinklinklinklinklinlinklinklinklinklinklinklinklinklinklinklinklinklinklinklinklink</a>
+                </li>
+                <li class="ref-item">
+                    <span>11</span> <a href="#">link</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

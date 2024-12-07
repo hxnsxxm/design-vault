@@ -27,3 +27,9 @@
 
 블로그 서식에 참고 링크를 추가할 때 사용하는 기능입니다. 참고 링크를 입력하면 자동으로 번호가 붙고, 링크가 클릭되면 번호가 추가됩니다.
 
+Example :
+
+![alt text](images/reference-box01-01.png) | ![alt text](images/reference-box01-02.png)
+---|---|
+
+<br>

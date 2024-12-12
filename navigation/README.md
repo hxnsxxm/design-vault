@@ -12,3 +12,11 @@
 
 <br>
 
+### type02
+
+<img src="./gif/navigation-type02.gif" width="300">
+
+#### Languages
+
+- HTML & JavaScript : [type02 - HTML](./type02/index.html)
+- CSS  : [type02 - CSS](./type02/style.css)

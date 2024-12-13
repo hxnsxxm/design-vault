@@ -6,8 +6,18 @@
 
 #### Languages
 
-- HTML & JavaScript : [type01 - HTML](./type01/index.html)
+- HTML : [type01 - HTML](./type01/index.html)
 - CSS  : [type01 - CSS](./type01/style.css)
 
 <br>
 
+### type02
+
+<img src="./gif/type02.gif" width="300">
+
+#### Languages
+
+- HTML : [type02 - HTML](./type02/index.html)
+- CSS  : [type02 - CSS](./type02/style.css)
+
+<br>

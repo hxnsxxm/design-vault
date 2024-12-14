@@ -21,3 +21,14 @@
 - CSS  : [type02 - CSS](./type02/style.css)
 
 <br>
+
+### type03
+
+<img src="./gif/type03.gif" width="300">
+
+#### Languages
+
+- HTML & JavaScript : [type03 - HTML](./type03/index.html)
+- CSS  : [type03 - CSS](./type03/style.css)
+
+<br>

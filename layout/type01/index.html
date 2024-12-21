@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>layout : 01</title>
+
+<style>
+  .container {
+    display: grid;
+    grid-template-rows: 80px auto 1fr auto 50px;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 90vh;
+    grid-template-areas:
+      "header     header      header"
+      "left-aside banner      right-aside"
+      "left-aside main        right-aside"
+      "left-aside low-content right-aside"
+      "footer     footer      footer";
+    grid-gap: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  @media (max-width: 678px) {
+    .container {
+      grid-template-rows: 50px 50px 50px 1fr 50px 50px 50px;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "header"
+        "banner"
+        "left-aside"
+        "main"
+        "right-aside"
+        "low-content"
+        "footer"
+    }
+  }
+
+  .header,
+  .right-aside {
+    background: rgb(248, 171, 70);
+  }
+  .left-aside,
+  .low-content {
+    background: rgb(65, 226, 65);
+  }
+  .banner {
+    background: rgb(236, 117, 117);
+  }
+  .main,
+  .footer {
+    background: rgb(142, 142, 250);
+  }
+
+  .header {
+    grid-area: header;
+  }
+  .left-aside {
+    grid-area: left-aside;
+  }
+  .right-aside {
+    grid-area: right-aside;
+  }
+  .banner {
+    grid-area: banner;
+  }
+  .main {
+    grid-area: main;
+  }
+  .low-content {
+    grid-area: low-content;
+  }
+  .footer {
+    grid-area: footer;
+  }
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">header</div>
+    <div class="left-aside">left-aside</div>
+    <div class="right-aside">right-aside</div>
+    <div class="banner">banner</div>
+    <div class="main">main</div>
+    <div class="low-content">low-content</div>
+    <div class="footer">footer</div>
+  </div>
+</body>
+</html>
